@@ -1,0 +1,99 @@
+body{
+	
+	background:rgba(242, 242, 242);
+	font-family: 'Lato', sans-serif;
+}
+#container{
+max-width:100%;
+}
+h2 {
+	color: rgb(63,7,202);
+	text-align: center;
+}
+p{
+	color:gray;
+text-align: center;	
+}
+ #send{
+	background: rgb(63,7,202);
+	color: white;
+	border-radius:15px;
+	display: inline-block;
+	margin-right:10px;
+	   padding:8px 35px 8px 35px;
+
+	border:1px rgb(63,7,202);
+	margin:0 auto;
+	max-width:100%;
+
+
+}
+#reset:hover{
+	background:gray;
+color: white;
+  transition: 0.6s;
+}
+
+#send:hover {
+	background:rgba(55, 32, 125.3);
+
+  transition: 0.6s;
+}
+#camps{
+	width:4%;
+	padding:10px;
+	margin:0 auto;
+		max-width:100%;
+}
+#select{
+	width:5%;
+	padding:10px;
+	margin:0 auto;
+		max-width:100%;
+}
+
+#reset{
+	background: white;
+	color: gray;
+	border:1px rgb(242 242 242);
+	border-radius:15px;
+   margin-left:10px;
+   padding:8px 45px 8px 45px;
+  box-shadow:0 0 2em #ccc;
+   margin:5px auto;
+
+}
+#buttons{
+	display: block;
+	text-align: center;
+	padding:20px;
+}
+form{
+	text-align: center;
+	margin:0 auto;
+
+}
+
+@media screen and (max-width:800px )  {
+	
+#send{
+
+	display:block;
+
+
+
+
+}
+	#reset{
+	
+		display: block;
+box-shadow:0 0 2em #ccc;
+	}
+	#select{
+		width:15%;
+	}
+	#camps{
+		width:10%;
+	}
+	
+}
